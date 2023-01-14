@@ -33,7 +33,7 @@ let cards = [
    		mainLink:"https://filedrop.ajaybhatta49.repl.co",
 		srcLink: "https://github.com/AjayBhatta16/filedrop",
    		title:'FileDrop',
-   		description:'A file-sharing web app built using Angular JS, Bootstrap, Flask, and MongoDB..'
+   		description:'A file-sharing web app built using Angular JS, Bootstrap, Flask, and MongoDB.'
  	}
 ]
 
