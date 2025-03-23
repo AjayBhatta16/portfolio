@@ -5,11 +5,11 @@ import BodyNav from '../BodyNav.js'
 let cards = [
 	{
 		id: 1,
-		imgLink: "images/minesweeper.png",
-		mainLink: "https://cooljavascriptthings.firebaseapp.com/minesweeper",
-		srcLink: "https://github.com/AjayBhatta16/minesweeper",
-		title: "Minesweeper",
-		description: "A minesweeper game built using basic HTML, CSS, and JavaScript."
+		imgLink: "images/socialguard.png",
+		mainLink: "https://socialguard-4efb8.firebaseapp.com/",
+		srcLink: "https://github.com/AjayBhatta16/social-media-scam-detector",
+		title: "Social Guard",
+		description: "An AI-Driven web application for identifying fraudulent accounts on social media platforms, built using ReactJS and Flask."
 	},
 	{
 		id: 2,
@@ -22,10 +22,10 @@ let cards = [
 	{
 		id: 3,
 		imgLink: "images/grabify.png",
-		mainLink: "https://grabify-clone.ajaybhatta49.repl.co",
+		mainLink: "https://linkwire.cc",
 		srcLink: "https://github.com/AjayBhatta16/grabify-clone",
-		title: "IP Logger",
-		description: "An IP logging tool similar to Grabify, built using ExpressJS, EJS Templating, and Bootstrap.",
+		title: "LinkWire",
+		description: "An IP logging and traffic analysis platform similar to Grabify, built using Bootstrap, ExpressJS, and GCP Firestore",
 	},
  	{
    		id: 4,

@@ -3,16 +3,19 @@ import HeadSection from './head/HeadSection.js'
 import AboutSection from './about/AboutSection.js' 
 import ContactSection from './contact/ContactSection.js'
 import ProjectsSection from './projects/ProjectsSection.js'
+import { BrowserRouter, Outlet, Route, Routes } from 'react-router-dom'
 
-export default function App(props) {
-  switch(props.section) {
-    case 'head':
-      return <HeadSection/>
-    case 'about':
-      return <AboutSection/>
-    case 'contact':
-      return <ContactSection/>
-    case 'projects':
-      return <ProjectsSection/>
-  }
+export default function App() {
+  return (
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={ <><Outlet/></> }>
+          <Route index element={ <HeadSection/> }/>
+          <Route path='about' element={ <AboutSection/> }/>
+          <Route path='contact' element={ <ContactSection/> }/>
+          <Route path='projects' element={ <ProjectsSection/> }/>
+        </Route>
+      </Routes>
+    </BrowserRouter>
+  )
 }
