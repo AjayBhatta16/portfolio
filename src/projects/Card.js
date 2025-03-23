@@ -8,7 +8,7 @@ export default function Card(props) {
       <h3 className='card-title'>{props.data.title}</h3>
       <p>{props.data.description}</p><br/>
       <div className='row'>
-	<small><a href={props.data.mainLink} target='_blank'>Demo</a></small>
+	      <small><a href={props.data.mainLink} target='_blank'>Demo</a></small>
         <small><a href={props.data.srcLink} target='_blank'>Source Code</a></small>
       </div>
     </div>
