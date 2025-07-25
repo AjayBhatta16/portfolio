@@ -1,0 +1,56 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "type": "object",
+    "properties": {
+        "title": {
+            "type": "string",
+            "description": "The name of the project"
+        },
+        "description": {
+            "type": "string",
+            "description": "A brief description of the project"
+        },
+        "mainLink": {
+            "type": "string",
+            "description": "A URI pointing to a live running instance of the project"
+        },
+        "srcLink": {
+            "type": "string",
+            "description": "A URI pointing to the project's source code on GitHub"
+        },
+        "appLogoURI": {
+            "type": "string",
+            "description": "A URI pointing to a displayable copy of the project's logo"
+        },
+        "screenshotUri1": {
+            "type": "string",
+            "description": "A URI pointing to a screenshot that shows the app in action"
+        },
+        "screenshotUri2": {
+            "type": "string",
+            "description": "A URI pointing to a second screenshot of the app"
+        },
+        "detailDescription": {
+            "type": "string",
+            "description": "A more detailed description of the project"
+        },
+        "archDiagramUri": {
+            "type": "string",
+            "description": "A URI pointing to a copy of the project's architecture diagram"
+        },
+        "techStack": {
+            "type": "array",
+            "items": {
+                "category": {
+                    "type": "string",
+                    "description": "The category of the technology (e.g., frontend, backend, database)"
+                },
+                "tools": {
+                    "type": "string",
+                    "description": "A list of languages, frameworks, etc. used in the project for the corresponding category"
+                }
+            },
+            "description": "An array of technologies used in the project"
+        }
+    }
+  }
