@@ -1,0 +1,135 @@
+[
+    {
+        "mainLink": "https://socialguard-4efb8.firebaseapp.com/",
+		"srcLink": "https://github.com/AjayBhatta16/social-media-scam-detector",
+		"title": "Social Guard",
+		"description": 
+            "An AI-Driven web application for identifying fraudulent accounts on social media platforms, built using ReactJS and Flask.",
+        "appLogoURI": "https://portfolio-assets-2.storage.googleapis.com/socialguard/project-icon.ico",
+        "screenshotUri1": "https://portfolio-assets-2.storage.googleapis.com/socialguard/screenshot1.png",
+        "screenshotUri2": "https://portfolio-assets-2.storage.googleapis.com/socialguard/screenshot2.png",
+        "archDiagramUri": "https://portfolio-assets-2.storage.googleapis.com/socialguard/arch-diagram.png",
+        "detailDescription": 
+            "Featured at the Human-Computer Interactions International conference (HCII) in 2024, this web-application served as a proof-of-concept to show how vigourous AI research could be applied to empower social media users to safeguard themselves from any fraudulent accounts that may be targeting them. The UI was inspired by ScamAdviser, and enables users to receive real-time, data-driven advice with the click of a button. Unfortunately, the application is no longer operational due to unmanageable costs associated with third-party API access.",
+        "techStack": [
+            {
+                "category": "Front-End",
+                "tools": "ReactJS, Bootstrap"
+            },
+            {
+                "category": "API",
+                "tools": "Flask, Python"
+            },
+            {
+                "category": "AI & Machine Learning",
+                "tools": "SciKit, HuggingFace Transformers"
+            },
+            {
+                "category": "ML Ops",
+                "tools": "Joblib, HuggingFace Pipelines, Pandas, GCP Storage Buckets"
+            },
+            {
+                "category": "Hosting",
+                "tootls": "Firebase, GCP App Engine, GCP Cloud Run Functions"
+            }
+        ]
+    },
+    {
+        "mainLink": "https://linkwire.cc",
+		"srcLink": "https://github.com/AjayBhatta16/grabify-clone",
+		"title": "LinkWire",
+		"description": "An IP logging and traffic analysis platform similar to Grabify, built using Bootstrap, ExpressJS, and GCP Firestore",
+        "appLogoURI": "https://portfolio-assets-2.storage.googleapis.com/linkwire/project-icon.ico",
+        "screenshotUri1": "https://portfolio-assets-2.storage.googleapis.com/linkwire/screenshot1.png",
+        "screenshotUri2": "https://portfolio-assets-2.storage.googleapis.com/linkwire/screenshot2.png",
+        "archDiagramUri": "https://portfolio-assets-2.storage.googleapis.com/linkwire/arch-diagram.png",
+        "detailDescription": 
+            "This project aims to empower cybersecurity researchers to gain optimal insights into threat actors, by combining the seamless user experience and short-form URL styles of Grabify with the speed and reliability of CanaryTokens. Users can create new redirect links and view their historical logs through our web-based dashboard, as well as receiving real-time traffic notifications via email when their links are accessed. We leverage various thrid party APIs to deliver automatic, comprehensive analysis of every click.",
+        "techStack": [
+            {
+                "category": "Front-End",
+                "tools": "JavaScript, EJS Templates, Bootstrap"
+            },
+            {
+                "category": "API",
+                "tools": "ExpressJS"
+            },
+            {
+                "category": "Database",
+                "tools": "Firestore"
+            },
+            {
+                "category": "Hosting",
+                "tools": "GCP App Engine, GCP Cloud Run Functions"
+            }
+        ]
+    },
+    {
+        "mainLink": "https://wordburglar.cc",
+        "srcLink": "https://github.com/AjayBhatta16/wordle-solver",
+        "title": "Word Burglar",
+        "description": "A web-based tool for solving 5-letter word puzzles, build using React JS, Bootstrap, Node.js, and Golang.",
+        "appLogoURI": "https://portfolio-assets-2.storage.googleapis.com/wordburglar/project-icon.ico",
+        "screenshotUri1": "https://portfolio-assets-2.storage.googleapis.com/wordburglar/screenshot1.png",
+        "screenshotUri2": "https://portfolio-assets-2.storage.googleapis.com/wordburglar/screenshot2.png",
+        "archDiagramUri": "https://portfolio-assets-2.storage.googleapis.com/wordburglar/arch-diagram.png",
+        "detailDescription": 
+            "After I, like many computer scientists and mathemeticians, devised an algorithm for solving a certain viral 5-letter word puzzle back in 2022, I took it a step further by devising a web-based platform where the script is flipped. Word Burglar reverses the roles of the human and the computer, allowing the users to provide clues while a greedy heuristic algorithm guesses the word. Each session has a unique URL, enabling users to share their findings.",
+        "techStack": [
+            {
+                "category": "Front-End",
+                "tools": "ReactJS, Bootstrap"
+            },
+            {
+                "category": "API",
+                "tools": "Node.js, Golang"
+            },
+            {
+                "category": "Database",
+                "tools": "Firestore"
+            },
+            {
+                "category": "Hosting",
+                "tools": "Vercel, GCP Cloud Run Functions"
+            },
+            {
+                "category": "Automation",
+                "tools": "GCP Pub/Sub"
+            }
+        ]
+    },
+    {
+        "mainLink":"https://filedrop.cc",
+		"srcLink": "https://github.com/AjayBhatta16/filedrop",
+   		"title": "FileDrop",
+   		"description": "A file-sharing web app built using Angular JS, Bootstrap, Flask, and MongoDB.",
+        "appLogoURI": "https://portfolio-assets-2.storage.googleapis.com/filedrop/project-icon.ico",
+        "screenshotUri1": "https://portfolio-assets-2.storage.googleapis.com/filedrop/screenshot1.png",
+        "screenshotUri2": "https://portfolio-assets-2.storage.googleapis.com/filedrop/screenshot2.png",
+        "archDiagramUri": "https://portfolio-assets-2.storage.googleapis.com/filedrop/arch-diagram.png",
+        "detailDescription": 
+            "At the front podium of a marketing class, just before a group presentation, a young aspiring software developer struggled for several minutes to get through multi-factor authentication in order to access his PowerPoint presentation on the classroom desktop. While the presentation ended up being a success, the student left the room thinking \"there has to be a better way\". That winter, FileDrop was born, enabling students and others to trade security for convenience when it suits them best, and seemlessly access files on the cloud without the hassel of MFA.",
+        "techStack": [
+            {
+                "category": "Front-End",
+                "tools": "AngularJS, Bootstrap"
+            },
+            {
+                "category": "API",
+                "tools": "Python"
+            },
+            {
+                "category": "Database",
+                "tools": "MongoDB"
+            },
+            {
+                "category": "Storage",
+                "tools": "S3 Buckets"
+            },
+            {
+                "category": "Hosting",
+                "tools": "AWS Elastic Beanstalk, AWS Lambda Functions"
+            }
+        ]
+    }
+]
