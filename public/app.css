@@ -87,13 +87,11 @@ a:visited {
   color: #f0f;
 }
 
-img {
+.card > img {
   width: 150px;
   height: 150px;
   margin: auto;
   display: block;
-  border: 1px solid #0ff;
-  border-radius: 100%;
 }
 
 h1 {
