@@ -63,7 +63,7 @@ nav > a:hover {
   max-width: 600px;
 }
 
-.card > button {
+.card > button, #about button {
   width: 150px;
   height: 40px;
   font-size: 15px;
@@ -75,7 +75,7 @@ nav > a:hover {
   margin-top: 15px;
 }
 
-.card > button:hover {
+.card > button:hover, #about button:hover {
   transform: scale(1.1);
 }
 
@@ -175,4 +175,48 @@ small {
   border: none;
   font-size: 30px;
   cursor: pointer;
+}
+
+.dialog-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.content-section {
+  height: 40vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.project-screenshot {
+  height: 100%;
+  margin-left: 10px;
+}
+
+.project-details {
+  justify-content: start;
+  align-items: flex-start;
+  max-width: 50%;
+}
+
+.project-details a {
+  margin-right: 20px;
+}
+
+.project-details > p {
+  text-align: left;
 }
