@@ -156,5 +156,23 @@ small {
   display: flex;
   flex-direction: row;
   width: 100%;
+  height: 50px;
   text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.dialog-header > img {
+  margin-right: 20px;
+}
+
+.close-button {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  background-color: transparent;
+  color: #fff;
+  border: none;
+  font-size: 30px;
+  cursor: pointer;
 }
