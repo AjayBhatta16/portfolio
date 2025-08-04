@@ -63,7 +63,7 @@ nav > a:hover {
   max-width: 600px;
 }
 
-button {
+.card > button {
   width: 150px;
   height: 40px;
   font-size: 15px;
@@ -75,7 +75,7 @@ button {
   margin-top: 15px;
 }
 
-button:hover {
+.card > button:hover {
   transform: scale(1.1);
 }
 
@@ -141,4 +141,20 @@ i {
 
 small {
   margin: 10px 20px;
+}
+
+.project-info-dialog {
+  position: fixed;
+  width: 90%;
+  max-width: 1000px;
+  height: 90%;
+  background-color: #111;
+  color: #fff;
+}
+
+.dialog-header {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  text-align: center;
 }

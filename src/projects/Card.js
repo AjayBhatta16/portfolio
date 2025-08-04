@@ -7,7 +7,9 @@ export default function Card(props) {
       <br/>
       <h3 className='card-title'>{props.data.title}</h3>
       <p>{props.data.description}</p><br/>
-      <button>Learn More</button>
+      <button
+        onClick={props.onLearnMoreClicked}
+      >Learn More</button>
     </div>
   )
 }
