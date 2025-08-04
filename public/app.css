@@ -218,7 +218,8 @@ small {
 .project-details {
   justify-content: start;
   align-items: flex-start;
-  max-width: 50%;
+  max-width: 500px;
+  max-height: 100%;
 }
 
 .project-details a {
@@ -247,4 +248,30 @@ ul {
   height: 100%;
   justify-content: flex-start;
   align-items: flex-start;
+}
+
+@media (max-width: 768px) {
+  .content-section-1, .content-section-2 {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .project-screenshot, .arch-diagram {
+    width: 100%;
+    height: auto;
+    margin-left: 0;
+    margin-top: 10px;
+  }
+
+  .project-details {
+    align-items: center;
+    text-align: center;
+    max-width: 90%;
+  }
+
+  .flex-row {
+    flex-direction: column;
+    gap: 5px;
+    align-items: center;
+  }
 }
