@@ -25,7 +25,7 @@ export default function ProjectInfoDialog(props) {
             </div>
             <hr/>
             <div className='dialog-content'>
-                <div className='content-section'>
+                <div className='content-section-1'>
                     <div className='flex-col project-details'>
                         <div className='flex-row'>
                             <a href={props.data.mainLink} target='_blank' rel='noopener noreferrer'>Live Demo&nbsp;↗</a>
@@ -37,7 +37,21 @@ export default function ProjectInfoDialog(props) {
                     <img className='project-screenshot' src={props.data.screenshotUri2}/>
                 </div>
                 <h3>Technical Details</h3>
-                <div className='content-section'></div>
+                <div className='content-section-2'>
+                    <img className='arch-diagram' src={props.data.archDiagramUri} />
+                    <div className='flex-col tech-stack-info'>
+                        <p>Tech Stack:</p>
+                        <ul>
+                            {
+                                props.data.techStack?.map((tech, idx) => (
+                                    <li key={idx}>
+                                        <strong>{tech.category}</strong>: {tech.tools}
+                                    </li>
+                                ))
+                            }
+                        </ul>
+                    </div>
+                </div>
             </div>
         </dialog>
     )

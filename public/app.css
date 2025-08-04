@@ -184,12 +184,20 @@ small {
   justify-content: center;
 }
 
-.content-section {
+.content-section-1 {
   height: 40vh;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
+}
+
+.content-section-2 {
+  height: 40vh;
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+  justify-content: start;
 }
 
 .flex-col {
@@ -219,4 +227,24 @@ small {
 
 .project-details > p {
   text-align: left;
+}
+
+.arch-diagram {
+  height: 100%;
+  margin-right: 20px;
+}
+
+li {
+  text-align: left;
+}
+
+ul {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.tech-stack-details {
+  height: 100%;
+  justify-content: flex-start;
+  align-items: flex-start;
 }
