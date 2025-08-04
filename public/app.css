@@ -63,7 +63,7 @@ nav > a:hover {
   max-width: 600px;
 }
 
-button {
+.card > button, #about button {
   width: 150px;
   height: 40px;
   font-size: 15px;
@@ -75,7 +75,7 @@ button {
   margin-top: 15px;
 }
 
-button:hover {
+.card > button:hover, #about button:hover {
   transform: scale(1.1);
 }
 
@@ -87,13 +87,11 @@ a:visited {
   color: #f0f;
 }
 
-img {
+.card > img {
   width: 150px;
   height: 150px;
   margin: auto;
   display: block;
-  border: 1px solid #0ff;
-  border-radius: 100%;
 }
 
 h1 {
@@ -143,4 +141,137 @@ i {
 
 small {
   margin: 10px 20px;
+}
+
+.project-info-dialog {
+  position: fixed;
+  width: 90%;
+  max-width: 1000px;
+  height: 90%;
+  background-color: #111;
+  color: #fff;
+}
+
+.dialog-header {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 50px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.dialog-header > img {
+  margin-right: 20px;
+}
+
+.close-button {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  background-color: transparent;
+  color: #fff;
+  border: none;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.dialog-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.content-section-1 {
+  height: 40vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.content-section-2 {
+  height: 40vh;
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+  justify-content: start;
+}
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.project-screenshot {
+  height: 100%;
+  margin-left: 10px;
+}
+
+.project-details {
+  justify-content: start;
+  align-items: flex-start;
+  max-width: 500px;
+  max-height: 100%;
+}
+
+.project-details a {
+  margin-right: 20px;
+}
+
+.project-details > p {
+  text-align: left;
+}
+
+.arch-diagram {
+  height: 100%;
+  margin-right: 20px;
+}
+
+li {
+  text-align: left;
+}
+
+ul {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.tech-stack-details {
+  height: 100%;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+@media (max-width: 768px) {
+  .content-section-1, .content-section-2 {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .project-screenshot, .arch-diagram {
+    width: 100%;
+    height: auto;
+    margin-left: 0;
+    margin-top: 10px;
+  }
+
+  .project-details {
+    align-items: center;
+    text-align: center;
+    max-width: 90%;
+  }
+
+  .flex-row {
+    flex-direction: column;
+    gap: 5px;
+    align-items: center;
+  }
 }
