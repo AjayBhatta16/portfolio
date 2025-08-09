@@ -30,7 +30,7 @@
             },
             {
                 "category": "Hosting",
-                "tootls": "Firebase, GCP App Engine, GCP Cloud Run Functions"
+                "tools": "Firebase, GCP App Engine, GCP Cloud Run Functions"
             }
         ]
     },
