@@ -1,0 +1,18 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "type": "object",
+    "properties": {
+        "name": {
+            "type": "string",
+            "description": "The name of the skill"
+        },
+        "iconClassList": {
+            "type": "string",
+            "description": "The FontAwesome class list for the skill's icon"
+        },
+        "descriptiveText": {
+            "type": "string",
+            "description": "A brief description of the skill"
+        }    
+    }
+}
