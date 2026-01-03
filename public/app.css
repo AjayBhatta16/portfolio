@@ -63,6 +63,12 @@ nav > a:hover {
   max-width: 600px;
 }
 
+#about p {
+  text-align: left;
+  margin-bottom: 15px;
+  line-height: 1.6;
+}
+
 .card > button, #about button {
   width: 150px;
   height: 40px;
