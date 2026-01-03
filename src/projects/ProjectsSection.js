@@ -1,17 +1,14 @@
-import React, { useState, useEffect } from 'react'
+import { useState } from 'react'
 import Card from './Card.js'
 import ProjectInfoDialog from './ProjectInfoDialog.js'
 import BodyNav from '../BodyNav.js'
-import { getProjects } from './projects.api.js'
+import { useStaticJSON } from '../hooks/useStaticJSON.js'
 
 export default function ProjectsSection() {
-  const [cards, setCards] = useState([])
   const [openModal, setOpenModal] = useState(false);
   const [selectedProject, setSelectedProject] = useState(null);
 
-  useEffect(() => {
-	getProjects().then(setCards);
-  }, [])
+  const cards = useStaticJSON('/project-list.json');
 
   const handleLearnMoreClicked = (card) => {
 	setSelectedProject(card);
