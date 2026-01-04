@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Backend & API Development",
+        "iconClassList": "fas fa-wifi",
+        "descriptiveText": ".NET Framework, Node.JS, Python, Golang"
+    },
+    {
+        "name": "Cloud Infrastructure",
+        "iconClassList": "fas fa-cloud-upload-alt",
+        "descriptiveText": "Azure, AWS, GCP"
+    },
+    {
+        "name": "AI & Machine Learning",
+        "iconClassList": "fas fa-brain",
+        "descriptiveText": "SciKit, HuggingFace, PyTorch, Databricks"
+    },
+    {
+        "name": "Database Management",
+        "iconClassList": "fas fa-database",
+        "descriptiveText": "CosmosDB, MongoDB, Firestore, MySQL"
+    },
+    {
+        "name": "UI Design & Development",
+        "iconClassList": "fas fa-mobile-alt",
+        "descriptiveText": "React, Angular, Bootstrap, Tailwind, Figma"
+    },
+    {
+        "name": "DevOps & CI/CD",
+        "iconClassList": "fas fa-cogs",
+        "descriptiveText": "Docker, Kubernetes, GitHub Actions, Azure Pipelines"
+    }
+]
