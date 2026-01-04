@@ -295,6 +295,17 @@ h4.carousel-header {
   margin-left: 0;
 }
 
+p.skill-description {
+  color: white;
+  width: 80%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  font-size: 18px;
+}
+
 @media (max-width: 768px) {
   .content-section-1, .content-section-2 {
     flex-direction: column;
