@@ -69,7 +69,7 @@ nav > a:hover {
   line-height: 1.6;
 }
 
-.card > button, #about button {
+.card > button, .resume-button {
   width: 150px;
   height: 40px;
   font-size: 15px;
@@ -81,7 +81,7 @@ nav > a:hover {
   margin-top: 15px;
 }
 
-.card > button:hover, #about button:hover {
+.card > button:hover, .resume-button:hover {
   transform: scale(1.1);
 }
 
@@ -254,6 +254,45 @@ ul {
   height: 100%;
   justify-content: flex-start;
   align-items: flex-start;
+}
+
+h4.carousel-header {
+  font-size: 25px;
+}
+
+.skill-card {
+  border: 1px solid #0ff;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 5px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.skill-card > i {
+  font-size: 50px;
+  margin-bottom: 10px;
+}
+
+.skill-card > h4 {
+  font-size: 20px;
+}
+
+.resume-button {
+  margin-top: 50px;
+}
+
+.slick-prev:before, .slick-next:before {
+  color: #0ff !important;
+  font-size: 30px !important;
+}
+
+.slick-prev {
+  margin-right: 20px;
+  margin-left: 0;
 }
 
 @media (max-width: 768px) {

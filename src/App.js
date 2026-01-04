@@ -5,6 +5,9 @@ import ContactSection from './contact/ContactSection.js'
 import ProjectsSection from './projects/ProjectsSection.js'
 import { BrowserRouter, Outlet, Route, Routes } from 'react-router-dom'
 
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+
 export default function App() {
   return (
     <BrowserRouter>
