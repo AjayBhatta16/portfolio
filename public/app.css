@@ -168,6 +168,11 @@ small {
   justify-content: center;
 }
 
+.dialog-header-logo {
+  max-width: 50px;
+  max-height: 50px;
+}
+
 .dialog-header > img {
   margin-right: 20px;
 }

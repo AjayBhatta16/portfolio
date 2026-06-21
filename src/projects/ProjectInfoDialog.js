@@ -19,7 +19,7 @@ export default function ProjectInfoDialog(props) {
             className='project-info-dialog'
         >
             <div className='dialog-header'>
-                <img src={props.data.appLogoURI} alt={props.data.title} />
+                <img className='dialog-header-logo' src={props.data.appLogoURI} alt={props.data.title} />
                 <h1>{props.data.title}</h1>
                 <button className='close-button' onClick={props.closeModal}>&times;</button>
             </div>
