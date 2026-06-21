@@ -36,9 +36,9 @@
     },
     {
         "mainLink": "https://linkwire.cc",
-		"srcLink": "https://github.com/AjayBhatta16/grabify-clone",
+		"srcLink": "https://github.com/AjayBhatta16/linkwire-architecture",
 		"title": "LinkWire",
-		"description": "An IP logging and traffic analysis platform similar to Grabify, built using Bootstrap, ExpressJS, and GCP Firestore",
+		"description": "A URL shortener and web traffic analysis platform, built using Angular, Bootstrap, ExpressJS, Golang, and GCP Firestore",
         "appLogoURI": "https://portfolio-assets-2.storage.googleapis.com/linkwire/logo.png",
         "screenshotUri1": "https://portfolio-assets-2.storage.googleapis.com/linkwire/screenshot1.png",
         "screenshotUri2": "https://portfolio-assets-2.storage.googleapis.com/linkwire/screenshot2.png",
@@ -48,11 +48,11 @@
         "techStack": [
             {
                 "category": "Front-End",
-                "tools": "JavaScript, EJS Templates, Bootstrap"
+                "tools": "Angular, Bootstrap"
             },
             {
                 "category": "API",
-                "tools": "ExpressJS"
+                "tools": "ExpressJS, Golang"
             },
             {
                 "category": "Database",
@@ -60,7 +60,7 @@
             },
             {
                 "category": "Hosting",
-                "tools": "GCP App Engine, GCP Cloud Run Functions"
+                "tools": "Firebase, GCP App Engine, GCP Cloud Run Functions"
             }
         ]
     },

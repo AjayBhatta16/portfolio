@@ -7,7 +7,7 @@
     {
         "name": "Cloud Infrastructure",
         "iconClassList": "fas fa-cloud-upload-alt",
-        "descriptiveText": "Azure, AWS, GCP"
+        "descriptiveText": "Azure, AWS, GCP, Terraform"
     },
     {
         "name": "AI & Machine Learning",
