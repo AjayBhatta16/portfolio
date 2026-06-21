@@ -10,7 +10,22 @@
 <url>
   <loc>https://ajaybhattacharyya.com/</loc>
   <lastmod>2025-03-23T05:20:02+00:00</lastmod>
+  <priority>1.00</priority>
 </url>
-
+<url>
+  <loc>https://ajaybhattacharyya.com/about</loc>
+  <lastmod>2025-03-23T05:20:02+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://ajaybhattacharyya.com/projects</loc>
+  <lastmod>2025-03-23T05:20:02+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://ajaybhattacharyya.com/contact</loc>
+  <lastmod>2025-03-23T05:20:02+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
 
 </urlset>

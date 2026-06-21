@@ -1,0 +1,19 @@
+# Ajay Bhattacharyya - Portfolio
+
+## About Me
+I am a full-stack software engineer based in Rochester, New York. I specialize in API development with the .NET Framework and the Azure Cloud Platform. I am currently available for full time roles and open-source collaboration.
+
+## Key Links
+* Home Page: [https://ajaybhattacharyya.com](https://ajaybhattacharyya.com)
+* Skills & Experience: [https://ajaybhattacharyya.com/about](https://ajaybhattacharyya.com/about)
+* Project Showcase: [https://ajaybhattacharyya.com/projects](https://ajaybhattacharyya.com/projects)
+* Contact Info: [https://ajaybhattacharyya.com/contact](https://ajaybhattacharyya.com/contact)
+
+## Core Skills
+* Programming Languages: C#, Python, JavaScript, TypeScript, Golang
+* Frameworks: .NET, Flask, FastAPI, ExpressJS, React, Angular
+* Databases: MongoDB, Cosmos, Firestore, MySQL
+* Cloud Platforms: Azure, GCP, AWS
+
+## Hiring / collaboration
+If you are looking to hire a software engineer or collaborate on a project, please reach out via Email at ajay.bhattacharyya.16@gmail.com.
