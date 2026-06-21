@@ -28,3 +28,10 @@ export const sliderSettings = {
         }
     ]
 }
+
+export function getYearsOfExperience() {
+    var currentDate = new Date();
+    var startDate = new Date('06/01/2021');
+
+    return Math.floor((currentDate - startDate)/(365 * 24 * 60 * 60 * 1000));
+}

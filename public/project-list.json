@@ -5,7 +5,7 @@
 		"title": "Social Guard",
 		"description": 
             "An AI-Driven web application for identifying fraudulent accounts on social media platforms, built using ReactJS and Flask.",
-        "appLogoURI": "https://portfolio-assets-2.storage.googleapis.com/socialguard/project-icon.ico",
+        "appLogoURI": "https://portfolio-assets-2.storage.googleapis.com/socialguard/logo.png",
         "screenshotUri1": "https://portfolio-assets-2.storage.googleapis.com/socialguard/screenshot1.png",
         "screenshotUri2": "https://portfolio-assets-2.storage.googleapis.com/socialguard/screenshot2.png",
         "archDiagramUri": "https://portfolio-assets-2.storage.googleapis.com/socialguard/arch-diagram.png",
@@ -39,7 +39,7 @@
 		"srcLink": "https://github.com/AjayBhatta16/grabify-clone",
 		"title": "LinkWire",
 		"description": "An IP logging and traffic analysis platform similar to Grabify, built using Bootstrap, ExpressJS, and GCP Firestore",
-        "appLogoURI": "https://portfolio-assets-2.storage.googleapis.com/linkwire/project-icon.ico",
+        "appLogoURI": "https://portfolio-assets-2.storage.googleapis.com/linkwire/logo.png",
         "screenshotUri1": "https://portfolio-assets-2.storage.googleapis.com/linkwire/screenshot1.png",
         "screenshotUri2": "https://portfolio-assets-2.storage.googleapis.com/linkwire/screenshot2.png",
         "archDiagramUri": "https://portfolio-assets-2.storage.googleapis.com/linkwire/arch-diagram.png",
