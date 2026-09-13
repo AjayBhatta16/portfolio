@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Buy Me A Coffee",
+        "iconClassList": "fas fa-mug-saucer",
+        "linkDisplayText": "ajaybhatta49",
+        "linkUrl": "https://buymeacoffee.com/ajaybhatta49?new=1"
+    },
+    {
+        "name": "Email",
+        "iconClassList": "fas fa-envelope",
+        "linkDisplayText": "ajay.bhattacharyya.16@gmail.com",
+        "linkUrl": "mailto:ajay.bhattacharyya.16@gmail.com"
+    },
+    {
+        "name": "Phone",
+        "iconClassList": "fas fa-phone-flip",
+        "linkDisplayText": "(585) 851-4522",
+        "linkUrl": "tel:+15858514522"
+    },
+    {
+        "name": "GitHub",
+        "iconClassList": "fab fa-github",
+        "linkDisplayText": "AjayBhatta16",
+        "linkUrl": "https://github.com/AjayBhatta16"
+    },
+    {
+        "name": "LinkedIn",
+        "iconClassList": "fab fa-linkedin-in",
+        "linkDisplayText": "Ajay Bhattacharyya",
+        "linkUrl": "https://www.linkedin.com/in/ajaybhatta49/"
+    }
+]
