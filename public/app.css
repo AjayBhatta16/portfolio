@@ -338,6 +338,31 @@ p.skill-description {
   transform: scale(1.1);
 }
 
+.contact-details {
+  border: 1px solid #fff;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.contact-details > h4 {
+  margin-bottom: 0;
+}
+
+.contact-detail-icons {
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  font-size: 20px;
+  align-items: center;
+  justify-content: center;
+  color: #0ff;
+}
+
+.contact-detail-icons > .fa-copy {
+  cursor: pointer;
+  margin-left: 10px;
+}
+
 @media (max-width: 768px) {
   .content-section-1, .content-section-2 {
     flex-direction: column;
@@ -352,7 +377,6 @@ p.skill-description {
   .project-screenshots {
     width: 90%;
     margin: auto;
-
   }
 
   .arch-diagram {

@@ -17,6 +17,10 @@
         "linkUrl": {
             "type": "string",
             "description": "The URL for the contact method"
+        },
+        "copyText": {
+            "type": "string",
+            "description": "The text to copy to the clipboard for the contact method"
         }
     }
 }

@@ -3,30 +3,35 @@
         "name": "Buy Me A Coffee",
         "iconClassList": "fas fa-coffee",
         "linkDisplayText": "ajaybhatta49",
-        "linkUrl": "https://buymeacoffee.com/ajaybhatta49?new=1"
+        "linkUrl": "https://buymeacoffee.com/ajaybhatta49?new=1",
+        "copyText": "https://buymeacoffee.com/ajaybhatta49"
     },
     {
         "name": "Email",
         "iconClassList": "fas fa-envelope",
         "linkDisplayText": "ajay.bhattacharyya.16@gmail.com",
-        "linkUrl": "mailto:ajay.bhattacharyya.16@gmail.com"
+        "linkUrl": "mailto:ajay.bhattacharyya.16@gmail.com",
+        "copyText": "ajay.bhattacharyya.16@gmail.com"
     },
     {
         "name": "Phone",
         "iconClassList": "fas fa-phone",
         "linkDisplayText": "(585) 851-4522",
-        "linkUrl": "tel:+15858514522"
+        "linkUrl": "tel:+15858514522",
+        "copyText": "(585) 851-4522"
     },
     {
         "name": "GitHub",
         "iconClassList": "fab fa-github",
         "linkDisplayText": "AjayBhatta16",
-        "linkUrl": "https://github.com/AjayBhatta16"
+        "linkUrl": "https://github.com/AjayBhatta16",
+        "copyText": "https://github.com/AjayBhatta16"
     },
     {
         "name": "LinkedIn",
         "iconClassList": "fab fa-linkedin-in",
         "linkDisplayText": "Ajay Bhattacharyya",
-        "linkUrl": "https://www.linkedin.com/in/ajaybhatta49/"
+        "linkUrl": "https://www.linkedin.com/in/ajaybhatta49/",
+        "copyText": "https://www.linkedin.com/in/ajaybhatta49/"
     }
 ]
