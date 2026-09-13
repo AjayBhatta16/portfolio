@@ -27,14 +27,16 @@ export default function ProjectInfoDialog(props) {
             <div className='dialog-content'>
                 <div className='content-section-1'>
                     <div className='flex-col project-details'>
-                        <div className='flex-row'>
+                        <div className='flex-row-2'>
                             <a href={props.data.mainLink} target='_blank' rel='noopener noreferrer'>Live Demo&nbsp;↗</a>
                             <a href={props.data.srcLink} target='_blank' rel='noopener noreferrer'>Source Code&nbsp;↗</a>
                         </div>
                         <p>{props.data.detailDescription}</p>
                     </div>
-                    <img className='project-screenshot' src={props.data.screenshotUri1}/>
-                    <img className='project-screenshot' src={props.data.screenshotUri2}/>
+                    <div className='flex-row project-screenshots'>
+                        <img className='project-screenshot' src={props.data.screenshotUri1}/>
+                        <img className='project-screenshot' src={props.data.screenshotUri2}/>
+                    </div>
                 </div>
                 <h3>Technical Details</h3>
                 <div className='content-section-2'>
