@@ -10,7 +10,7 @@ export default function ContactBubble(props) {
     }
 
     return (
-        <div className='flex-col'>
+        <div className='flex-col contact-wrapper'>
             <div className='contact-bubble' onClick={() => setDisplayDetails(!displayDetails)}>
                 <i className={`contact-icon ${contactInfo.iconClassList}`}></i>
             </div>

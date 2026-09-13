@@ -7,18 +7,18 @@
         "copyText": "https://buymeacoffee.com/ajaybhatta49"
     },
     {
-        "name": "Email",
-        "iconClassList": "fas fa-envelope",
-        "linkDisplayText": "ajay.bhattacharyya.16@gmail.com",
-        "linkUrl": "mailto:ajay.bhattacharyya.16@gmail.com",
-        "copyText": "ajay.bhattacharyya.16@gmail.com"
-    },
-    {
         "name": "Phone",
         "iconClassList": "fas fa-phone",
         "linkDisplayText": "(585) 851-4522",
         "linkUrl": "tel:+15858514522",
         "copyText": "(585) 851-4522"
+    },
+    {
+        "name": "Email",
+        "iconClassList": "fas fa-envelope",
+        "linkDisplayText": "ajay.bhattacharyya.16@gmail.com",
+        "linkUrl": "mailto:ajay.bhattacharyya.16@gmail.com",
+        "copyText": "ajay.bhattacharyya.16@gmail.com"
     },
     {
         "name": "GitHub",

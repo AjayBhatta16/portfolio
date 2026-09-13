@@ -319,6 +319,10 @@ p.skill-description {
   font-size: 18px;
 }
 
+.contact-wrapper {
+  position: relative;
+}
+
 .contact-bubble {
   width: 100px;
   height: 100px;
@@ -342,6 +346,11 @@ p.skill-description {
   border: 1px solid #fff;
   border-radius: 10px;
   padding: 10px;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 10000;
+  background-color: #000;
 }
 
 .contact-details > h4 {
