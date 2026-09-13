@@ -1,7 +1,7 @@
 [
     {
         "name": "Buy Me A Coffee",
-        "iconClassList": "fas fa-mug-saucer",
+        "iconClassList": "fas fa-coffee",
         "linkDisplayText": "ajaybhatta49",
         "linkUrl": "https://buymeacoffee.com/ajaybhatta49?new=1"
     },
@@ -13,7 +13,7 @@
     },
     {
         "name": "Phone",
-        "iconClassList": "fas fa-phone-flip",
+        "iconClassList": "fas fa-phone",
         "linkDisplayText": "(585) 851-4522",
         "linkUrl": "tel:+15858514522"
     },
